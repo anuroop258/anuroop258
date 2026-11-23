@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081522"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#15102a"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#50e6e0"/>
+      <stop offset="0.52" stop-color="#66baff"/>
+      <stop offset="1" stop-color="#b49cff"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38e4d5"/>
+      <stop offset="1" stop-color="#8c79ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="50%" r="65%">
+      <stop offset="0" stop-color="#354c9a" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#354c9a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8aa5c7" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#glow)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M0 0H1200" stroke="#50e6e0" stroke-opacity=".65" stroke-width="3"/>
+  <path d="M52 52V28H76 M1124 332H1148V308" fill="none" stroke="#52dcd7" stroke-width="3" opacity=".8"/>
+  <text x="70" y="72" fill="#7f9bb5" font-family="Consolas,monospace" font-size="15" letter-spacing="3">ENGINEERING / PROFILE</text>
+  <text x="66" y="155" fill="url(#title)" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="700" letter-spacing="2">ANUROOP</text>
+  <text x="70" y="198" fill="#e6efff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600">Software Engineering · Backend Systems</text>
+  <text x="70" y="234" fill="#a9bfd5" font-family="Arial,Helvetica,sans-serif" font-size="21">Automation · Applied AI · Data &amp; ML</text>
+  <path d="M70 265H548" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <text x="70" y="302" fill="#79dcd8" font-family="Consolas,monospace" font-size="15" letter-spacing="1.5">PYTHON   /   APIs   /   PLAYWRIGHT   /   LANGGRAPH</text>
+  <g transform="translate(660 66)">
+    <rect x="0" y="0" width="475" height="226" rx="15" fill="#070d17" stroke="#39516b" stroke-width="1.5"/>
+    <path d="M0 46H475" stroke="#26394e" stroke-width="1"/>
+    <circle cx="24" cy="23" r="6" fill="#ff6c75"/>
+    <circle cx="45" cy="23" r="6" fill="#ffc65a"/>
+    <circle cx="66" cy="23" r="6" fill="#55d89b"/>
+    <text x="95" y="28" fill="#7894ad" font-family="Consolas,monospace" font-size="13">anuroop@systems: ~/build</text>
+    <text x="28" y="85" fill="#56decf" font-family="Consolas,monospace" font-size="17">$ whoami</text>
+    <text x="28" y="116" fill="#f1f5ff" font-family="Consolas,monospace" font-size="19" font-weight="700">SOFTWARE ENGINEER</text>
+    <text x="28" y="152" fill="#9db5cc" font-family="Consolas,monospace" font-size="15">design → implement → test</text>
+    <text x="28" y="184" fill="#9db5cc" font-family="Consolas,monospace" font-size="15">systems that can be inspected.</text>
+    <rect x="28" y="199" width="9" height="15" rx="1" fill="#56decf"/>
+    <path d="M52 205H240" stroke="#314a61" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <path d="M0 348H1200" stroke="url(#line)" stroke-width="4" opacity=".9"/>
+</svg>
